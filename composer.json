@@ -1,12 +1,13 @@
 {
-    "name": "Brevis",
+    "name": "TripleCherry",
     "autoload": {
         "psr-4": {
-            "Brevis\\": "core/"
+            "TripleCherry\\": "/"
         }
     },
     "require":{
-        "TripleCherry/TripleCherry":"master"
+        "TripleCherry/TripleCherry":"master",
+        "triplecherry/triplecherry": "^0.0.1"
     },
     "repositories":[
         {
