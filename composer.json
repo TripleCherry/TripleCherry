@@ -1,6 +1,5 @@
 {
     "name": "TripleCherry/TripleCherry",
-    "version": "master",
     "autoload": {
         "psr-4": {
             "Triplecherry\\": "src/classes/"
