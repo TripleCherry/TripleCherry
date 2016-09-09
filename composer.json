@@ -1,9 +1,9 @@
 {
-    "name": "TripleCherry/TripleCherry",
+    "name": "triplecherry/triplecherry",
     "type": "package",
     "description": "Simple CMS",
     "keywords": ["CMS","system"],
-    "homepage": "https://github.com/TripleCherry/TripleCherry",
+    "homepage": "https://github.com/triplecherry/triplecherry",
     "license": "MIT",
     "authors": [
         {
