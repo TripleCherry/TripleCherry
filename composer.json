@@ -1,0 +1,12 @@
+{
+    "require": {
+
+        "TripleCherry/TripleCherry":"master"
+    },
+    "repositories":[
+        {
+            "type":"git",
+            "url":"http://github.com/TripleCherry/TripleCherry"
+        }
+    ]
+}
