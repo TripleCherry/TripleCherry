@@ -5,7 +5,6 @@
     "keywords": ["CMS","system"],
     "homepage": "https://github.com/triplecherry/triplecherry",
     "license": "MIT",
-    "minimum-stability": "dev",
     "authors": [
         {
             "name": "Admin",
