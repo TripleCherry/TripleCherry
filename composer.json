@@ -1,30 +1,17 @@
 {
-    "name": "TripleCherry",
+    "name": "TripleCherry/TripleCherry",
+    "version": "0.0.1",
     "autoload": {
         "psr-4": {
-            "TripleCherry\\": "/"
+            "Triplecherry\\": "src/classes/"
         }
     },
-    "require":{
-        "TripleCherry/TripleCherry":"master",
-        "triplecherry/triplecherry": "^0.0.1"
+    "version_normalized": "0.0.1.0",
+    "source": {
+        "type": "git",
+        "url": "http://github.com/TripleCherry/TripleCherry",
+        "reference": "master"
     },
-    "repositories":[
-        {
-            "type":"git",
-            "url":"http://github.com/TripleCherry/TripleCherry"
-        },
-        {
-            "type":"package",
-            "package":{
-                "name":"TripleCherry/TripleCherry",
-                "version":"0.0.1",
-                "source":{
-                    "type":"git",
-                    "url":"http://github.com/TripleCherry/TripleCherry",
-                    "reference":"master"
-                }
-            }
-        }
-    ]
+    "type": "library",
+    "installation-source": "source"
 }
