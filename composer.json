@@ -1,12 +1,11 @@
 {
     "name": "TripleCherry/TripleCherry",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "autoload": {
         "psr-4": {
             "Triplecherry\\": "src/classes/"
         }
     },
-    "version_normalized": "0.0.1.0",
     "source": {
         "type": "git",
         "url": "http://github.com/TripleCherry/TripleCherry",
