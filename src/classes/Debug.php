@@ -1,6 +1,6 @@
 <?php
 
-namespace DoubleCherry;
+namespace TripleCherry;
 
 class Debug
 {

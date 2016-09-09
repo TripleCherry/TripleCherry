@@ -1,12 +1,29 @@
 {
-    "require": {
-
+    "name": "Brevis",
+    "autoload": {
+        "psr-4": {
+            "Brevis\\": "core/"
+        }
+    },
+    "require":{
         "TripleCherry/TripleCherry":"master"
     },
     "repositories":[
         {
             "type":"git",
             "url":"http://github.com/TripleCherry/TripleCherry"
+        },
+        {
+            "type":"package",
+            "package":{
+                "name":"TripleCherry/TripleCherry",
+                "version":"0.0.1",
+                "source":{
+                    "type":"git",
+                    "url":"http://github.com/TripleCherry/TripleCherry",
+                    "reference":"master"
+                }
+            }
         }
     ]
 }

@@ -10,7 +10,7 @@ $whoops->register();
 
 function __autoload($className) {
 
-    $prefix = 'DoubleCherry\\';
+    $prefix = 'TripleCherry\\';
 
     $len = strlen($prefix);
     if (strncmp($prefix, $className, $len) !== 0) {
@@ -28,7 +28,7 @@ function __autoload($className) {
 
 
 
-$Debug = new \DoubleCherry\Debug;
+$Debug = new \TripleCherry\Debug;
 $start = $Debug->getTime();
 
 require_once __DIR__ . '/config.php';
