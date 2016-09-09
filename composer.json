@@ -15,7 +15,6 @@
     ],
     "require": {
         "php": ">=5.3.0",
-        "triplecherry/triplecherry": "dev"
     },
     "autoload": {
         "psr-4": {
