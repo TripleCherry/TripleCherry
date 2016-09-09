@@ -5,7 +5,7 @@
     "repositories":[
         {
             "type":"git",
-            "url": "http://github.com/TripleCherry/TripleCherry",
+            "url": "http://github.com/TripleCherry/TripleCherry"
         },
         {
             "type":"package",
@@ -21,6 +21,7 @@
                     "psr-4": {
                         "Triplecherry\\": "src/classes/"
                     }
+                }
             }
         }
     ]
