@@ -3,6 +3,8 @@
     "type": "package",
     "description": "Simple CMS",
     "keywords": ["CMS","system"],
+    "version": "0.0.1",
+    "version_normalized": "0.0.1.0",
     "homepage": "https://github.com/triplecherry/triplecherry",
     "license": "MIT",
     "authors": [
@@ -19,7 +21,7 @@
     },
     "autoload": {
         "psr-4": {
-            "TrippleCherry\\": "src/classes/"
+            "TripleCherry\\": "src/classes/"
         }
     }
 }
